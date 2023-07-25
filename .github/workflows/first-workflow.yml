@@ -9,4 +9,6 @@ jobs:
           echo "Hello World!"
           echo "Or whoever is there..."
       - name: Print Goodbye
-        run: echo "Im Done, Bya Bye!"
+        run: |
+          echo "Im Done..."
+          echo "Bya Bye!"
